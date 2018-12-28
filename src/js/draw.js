@@ -1,7 +1,18 @@
-import { canvas, ctx } from './context';
-const init = () => {
-    window.requestAnimationFrame(draw);
-}
+import { ctx } from './context';
+import { drawHead } from './draw-head';
+import { drawFace } from './draw-face';
+import { drawEye } from './draw-eye';
+import { drawNose } from './draw-nose';
+import { drawHand } from './draw-hand';
+import { drawBell } from './draw-bell';
+import { drawCollar } from './draw-collar';
+import { drawBody } from './draw-body';
+import { drawBelly } from './draw-belly';
+import { drawFoot } from './draw-foot';
+import { drawTreasureBag } from './draw-treasure_bag';
+import { drawMouth } from './draw-mouth';
+import { drawMoustache } from './draw-moustache';
+
 let headSpeed = 0.1; // 头的绘制进度
 let leftEyeSpeed = 0.1; // 左眼的绘制进度
 let rightEyeSpeed = 0.1; // 右眼的绘制进度
@@ -23,21 +34,9 @@ let bTreasureBagSpeed = 0.1; // 百宝袋下沿的绘制进度
 let hMouthSpeed = 0.1; // 上嘴唇的绘制进度
 let bMouthSpeed = 0.1; // 下嘴唇的绘制进度
 let MoustacheSpeed = 0.1; // 胡子的绘制进度
-import { drawHead } from './draw-head';
-import { drawFace } from './draw-face';
-import { drawEye } from './draw-eye';
-import { drawNose } from './draw-nose';
-import { drawHand } from './draw-hand';
-import { drawBell } from './draw-bell';
-import { drawCollar } from './draw-collar';
-import { drawBody } from './draw-body';
-import { drawBelly } from './draw-belly';
-import { drawFoot } from './draw-foot';
-import { drawTreasureBag } from './draw-treasure_bag';
-import { drawMouth } from './draw-mouth';
-import { drawMoustache } from './draw-moustache';
+
 const draw = () => {
-    ctx.clearRect(0, 0, canvas.width, canvas.height); // x, y, w, h
+    ctx.clearRect(0, 0, 300, 300); // x, y, w, h
     ctx.fillStyle = '#000';
     ctx.strokeStyle = '#000';
     ctx.save();
@@ -114,4 +113,4 @@ const draw = () => {
     ctx.restore();
     window.requestAnimationFrame(draw);
 }
-init();
+export { draw, };

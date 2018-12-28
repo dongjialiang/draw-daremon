@@ -1,14 +1,14 @@
 {
   "name": "draw-daremon",
   "version": "0.0.1",
-  "description": "",
+  "description": "draw a daremon",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
