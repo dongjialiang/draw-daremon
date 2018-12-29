@@ -8,54 +8,54 @@
 
 ##### 圆圈中一点
 
-![leftEye](./src/assets/daremonGif/leftEye.gif)
+<img src="./src/assets/daremonGif/leftEye.gif" width="20%" alt="leftEye" />
 
 ##### 圆圈中一点
 
-![rightEye](./src/assets/daremonGif/rightEye.gif)
+<img src="./src/assets/daremonGif/rightEye.gif" width="20%" alt="rightEye" />
 
 ##### 豆子发芽了
 
-![nose](./src/assets/daremonGif/nose.gif)
+<img src="./src/assets/daremonGif/nose.gif" width="20%" alt="nose" />
 
 ##### 圆圆的花盆
 
-![face](./src/assets/daremonGif/face.gif)
+<img src="./src/assets/daremonGif/face.gif" width="20%" alt="face" />
 
 ##### 圆圆的花盆
 
-![head](./src/assets/daremonGif/head.gif)
+<img src="./src/assets/daremonGif/head.gif" width="20%" alt="head" />
 
 ##### 六月六日的飞碟
 
-![hand-and-bell](./src/assets/daremonGif/hand-and-bell.gif)
+<img src="./src/assets/daremonGif/hand-and-bell.gif" width="20%" alt="hand-and-bell" />
 
 ##### 左飞一次
 
-![leftCollar](./src/assets/daremonGif/leftCollar.gif)
+<img src="./src/assets/daremonGif/leftCollar.gif" width="20%" alt="leftCollar" />
 
 ##### 右飞一次
 
-![rightCollar](./src/assets/daremonGif/rightCollar.gif)
+<img src="./src/assets/daremonGif/rightCollar.gif" width="20%" alt="rightCollar" />
 
 ##### 落了下来
 
-![body](./src/assets/daremonGif/body.gif)
+<img src="./src/assets/daremonGif/body.gif" width="20%" alt="body" />
 
 ##### 两个池塘,建成了
 
-![foot](./src/assets/daremonGif/foot.gif)
+<img src="./src/assets/daremonGif/foot.gif" width="20%" alt="foot" />
 
 ##### 池塘上浮着船
 
-![belly-and-treasureBag](./src/assets/daremonGif/belly-and-treasureBag.gif)
+<img src="./src/assets/daremonGif/belly-and-treasureBag.gif" width="20%" alt="belly-and-treasureBag" />
 
 ##### 空中的弯月,升起来了
 
-![mouth](./src/assets/daremonGif/mouth.gif)
+<img src="./src/assets/daremonGif/mouth.gif" width="20%" alt="mouth" />
 
 ##### 再加上胡须,就是哆啦A梦
 
-![moustache](./src/assets/daremonGif/moustache.gif)
+<img src="./src/assets/daremonGif/moustache.gif" width="20%" alt="moustache" />
 
-[demo](https://dongjialiang.github.io/draw-daremon/src/index.html)
+<a href="https://dongjialiang.github.io/draw-daremon/src/index.html" target="_blank">demo</a>
