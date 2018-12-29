@@ -10,7 +10,7 @@ const drawHand = (p0, p1, p2, n) => { // 6月6日
     ctx.stroke();
     b[0] = b[0] > 50 ? b[0] - 5 : b[0] + 5;
     ctx.beginPath();
-    if(n === 50) {
+    if(n >= 50) {
         ctx.arc(b[0], b[1] - 3, 5, 0, Math.PI * 2, false);
     }
     ctx.stroke();
