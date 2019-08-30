@@ -18,9 +18,15 @@
 
 #### 再加上胡须,就是哆啦A梦
 
-<img src="./src/assets/daremonGif/moustache.gif" width="20%" alt="moustache" />
+![Mousetache][mousetache]
 
-<a href="https://dongjialiang.github.io/draw-daremon/src/index.html" target="_blank">demo</a>
+#### 上色
+
+![IsColor][isColor]
+
+#### Web page
+
+[demo](https://dongjialiang.github.io/draw-daremon/src/index.html "Demo")
 
 [leftEye]: src/assets/daremonGif/leftEye.gif
 [rightEye]: src/assets/daremonGif/rightEye.gif
@@ -34,3 +40,5 @@
 [foot]: src/assets/daremonGif/foot.gif
 [belly-and-treasureBag]: src/assets/daremonGif/belly-and-treasureBag.gif
 [mouth]: src/assets/daremonGif/mouth.gif
+[mousetache]: src/assets/daremonGif/moustache.gif
+[isColor]: src/assets/daremonGif/isColor.png
