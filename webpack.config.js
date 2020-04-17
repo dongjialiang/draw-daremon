@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/js/index.js',
+  entry: './src/scripts/index.js',
   mode: 'production',
   output: {
-    path: path.resolve(__dirname, 'src/dist'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'draw-daremon.js'
   }
 };

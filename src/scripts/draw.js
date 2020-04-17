@@ -55,7 +55,7 @@ const draw = () => {
     drawMouth('head', PROGESS[18]);
     drawMouth('body', PROGESS[19]);
 
-    drawNose(PROGESS[2]);
+    drawNose(PROGESS[2], isColor);
 
     drawEye(60, PROGESS[1]);
     drawEye(42, PROGESS[0]);

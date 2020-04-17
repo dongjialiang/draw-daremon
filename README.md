@@ -28,17 +28,17 @@
 
 [demo](https://dongjialiang.github.io/draw-daremon/src/index.html "Demo")
 
-[leftEye]: src/assets/daremonGif/leftEye.gif
-[rightEye]: src/assets/daremonGif/rightEye.gif
-[nose]: src/assets/daremonGif/nose.gif
-[face]: src/assets/daremonGif/face.gif
-[head]: src/assets/daremonGif/head.gif
-[hand-and-bell]: src/assets/daremonGif/hand-and-bell.gif
-[leftCollar]: src/assets/daremonGif/leftCollar.gif
-[rightCollar]: src/assets/daremonGif/rightCollar.gif
-[body]: src/assets/daremonGif/body.gif
-[foot]: src/assets/daremonGif/foot.gif
-[belly-and-treasureBag]: src/assets/daremonGif/belly-and-treasureBag.gif
-[mouth]: src/assets/daremonGif/mouth.gif
-[mousetache]: src/assets/daremonGif/moustache.gif
-[isColor]: src/assets/daremonGif/isColor.png
+[leftEye]: src/assets/leftEye.gif
+[rightEye]: src/assets/rightEye.gif
+[nose]: src/assets/nose.gif
+[face]: src/assets/face.gif
+[head]: src/assets/head.gif
+[hand-and-bell]: src/assets/hand-and-bell.gif
+[leftCollar]: src/assets/leftCollar.gif
+[rightCollar]: src/assets/rightCollar.gif
+[body]: src/assets/body.gif
+[foot]: src/assets/foot.gif
+[belly-and-treasureBag]: src/assets/belly-and-treasureBag.gif
+[mouth]: src/assets/mouth.gif
+[mousetache]: src/assets/moustache.gif
+[isColor]: src/assets/isColor.png
