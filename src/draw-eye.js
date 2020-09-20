@@ -1,11 +1,11 @@
 import { ctx } from './context';
 
-const drawEye = (x, progress) => { // 圆圈中一点(眼睛)
+const drawEye = (x, progress, progress_max) => { // 圆圈中一点(眼睛)
     ctx.beginPath();
     ctx.lineWidth = 2;
-    ctx.arc(x, 35, 9, 0, progress * (Math.PI * 2 / 50), false); // 圆圈
+    ctx.arc(x, 35, 9, 0, progress * (Math.PI * 2 / progress_max), false); // 圆圈
     ctx.stroke();
-    if (progress >= 50) {
+    if (progress >= progress_max) {
         ctx.fillStyle = '#000';
         ctx.fill();
         ctx.lineWidth = 3;

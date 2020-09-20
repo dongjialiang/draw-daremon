@@ -1,14 +1,13 @@
 import { ctx } from './context';
 
-const drawBell = (progress, isColor) => { // 的幽浮
+const drawBell = (progress, isColor, progress_max) => { // 的幽浮
     ctx.beginPath();
-    ctx.arc(50, 98, 6, 0, progress * (Math.PI * 2 / 50), false);
+    ctx.arc(50, 98, 6, 0, progress * (Math.PI * 2 / progress_max), false);
     if (isColor) {
-        ctx.moveTo(44, 98);
-        ctx.lineTo(56, 98);
         ctx.fillStyle = '#fff657';
         ctx.fill();
-    } else if (progress >= 50) {
+    }
+    if (progress >= progress_max) {
         ctx.moveTo(44, 98);
         ctx.lineTo(56, 98);
     }

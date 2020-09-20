@@ -2,18 +2,14 @@
   "name": "draw-daremon",
   "version": "0.0.1",
   "description": "draw a daremon",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "./src/index.js",
   "scripts": {
-    "build": "webpack"
+    "start": "es-dev-server --app-index index.html --node-resolve --watch --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+  "dependencies": {
+    "es-dev-server": "^1.57.4"
   }
 }

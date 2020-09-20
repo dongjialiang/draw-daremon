@@ -9,6 +9,9 @@
 </head>
 <body>
     <canvas></canvas>
-    <script src="dist/draw-daremon.js"></script>
+    <script type="module">
+        import { init } from './src/index';
+        init(10);
+    </script>
 </body>
 </html>
