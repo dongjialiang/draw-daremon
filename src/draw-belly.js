@@ -1,6 +1,4 @@
-import { ctx } from './context';
-
-const drawBelly = (direction, x, y, progress, isColor, progress_max) => { // 池塘上(肚子)
+const drawBelly = (ctx, direction, x, y, progress, isColor, progress_max) => { // 池塘上(肚子)
     ctx.beginPath();
     let dir = direction === 'left' ? 1 : -1;
     let angle = (direction === 'left' ? .68 : .24) * dir;

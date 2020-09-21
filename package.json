@@ -1,15 +1,19 @@
 {
   "name": "draw-daremon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "draw a daremon",
   "main": "./src/index.js",
   "scripts": {
-    "start": "es-dev-server --app-index index.html --node-resolve --watch --open"
+    "start": "serve",
+    "dev": "es-dev-server --app-index index.html --node-resolve --watch --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {
     "es-dev-server": "^1.57.4"
   }
 }

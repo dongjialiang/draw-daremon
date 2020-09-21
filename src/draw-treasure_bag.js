@@ -1,6 +1,4 @@
-import { ctx } from './context';
-
-const drawTreasureBag = (component, progress, progress_max) => { // 飘着船(百宝袋)
+const drawTreasureBag = (ctx, component, progress, progress_max) => { // 飘着船(百宝袋)
     ctx.beginPath();
     if (component === 'head') {
         ctx.moveTo(62, 110);

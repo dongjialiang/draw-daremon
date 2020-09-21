@@ -18,6 +18,27 @@
 | 再加上胡须,就是哆啦A梦 | 给哆啦A梦上色 | |
 | ![Mousetache][mousetache] | ![IsColor][isColor] | |
 
+### 使用方法
+
+```html
+    <script type="module">
+        import { init } from './src/index.js'; // 导入初始化方法
+        init(10); // 传入最大进度条数值，该值越小绘制速度越快
+    </script>
+```
+
+### 启动项目
+
+```powershell
+    npm run start
+```
+
+### 开发项目
+
+```powershell
+    npm run dev
+```
+
 [leftEye]: src/assets/leftEye.gif
 [rightEye]: src/assets/rightEye.gif
 [nose]: src/assets/nose.gif

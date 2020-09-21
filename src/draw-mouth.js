@@ -1,6 +1,4 @@
-import { ctx } from './context';
-
-const drawMouth = (component, progress, progress_max) => { // 圆圆的月亮升起来了(嘴巴)
+const drawMouth = (ctx, component, progress, progress_max) => { // 圆圆的月亮升起来了(嘴巴)
     ctx.beginPath();
     if (component === 'head') {
         ctx.moveTo(72, 60);

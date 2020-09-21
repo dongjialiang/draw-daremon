@@ -1,6 +1,4 @@
-import { ctx } from './context';
-
-const drawBody = (p0, p1, p2, progress, isColor, progress_max) => { // 落了下来
+const drawBody = (ctx, p0, p1, p2, progress, isColor, progress_max) => { // 落了下来
     let t = progress / progress_max;
     let q0 = [p0[0] + (p1[0] - p0[0]) * t, p0[1] + (p1[1] - p0[1]) * t];
     let q1 = [p1[0] + (p2[0] - p1[0]) * t, p1[1] + (p2[1] - p1[1]) * t];

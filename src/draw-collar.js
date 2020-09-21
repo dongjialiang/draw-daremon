@@ -1,6 +1,4 @@
-import { ctx } from './context';
-
-const drawCollar = (direction, progress, isColor, progress_max) => { // 这边一下, 那边一下
+const drawCollar = (ctx, direction, progress, isColor, progress_max) => { // 这边一下, 那边一下
     ctx.beginPath();
     let angle = direction === 'left' ? .56 : .44;
     let dir = direction === 'left' ? 1 : -1;

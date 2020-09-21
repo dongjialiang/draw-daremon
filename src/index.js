@@ -1,4 +1,4 @@
-import { draw } from './draw';
+import { draw } from './draw.js';
 
 const init = (PROGRESS_MAX = 50) => {
     window.requestAnimationFrame(() => draw(PROGRESS_MAX));
